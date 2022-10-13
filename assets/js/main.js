@@ -3,13 +3,17 @@ let firstNum = +prompt('Enter first number');
 let secondNum = +prompt('Enter second number');
 let result = 0;
 
-if (operation === '+') {
+if (operation === 'add') {
+  operation = '+';
   result = firstNum + secondNum;
-  } else if (operation === '-') {
+  } else if (operation === 'sub') {
+    operation = '-';
     result = firstNum - secondNum;
-  } else if (operation === '*') {
+  } else if (operation === 'mult') {
+    operation = '*';
     result = firstNum * secondNum;
-  } else if (operation === '/') {
+  } else if (operation === 'div') {
+    operation = '/';
     result = firstNum / secondNum;
 } else {
   result = 'You entered wrong operator';
