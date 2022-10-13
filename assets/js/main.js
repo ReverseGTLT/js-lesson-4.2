@@ -1,4 +1,4 @@
-let operation = prompt('Enter operation')
+let operation = prompt('Enter operation `add or sub or mult or div`')
 let firstNum = +prompt('Enter first number');
 let secondNum = +prompt('Enter second number');
 let result = 0;
